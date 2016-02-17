@@ -1,3 +1,32 @@
+/* Wireframing */
+*:not(body):not(html) {
+  border: 1px dashed #000;
+}
+
+/*end*/
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+.container {
+  min-width: 100%;
+  min-height: 100vh;
+  /*background-color: red;*/
+}
+
 .navbar {
   background: #452610;
 }
@@ -23,8 +52,9 @@
   border: none;
 }
 
-.panel {
-  margin: 0 2vw;
+.showtimes {
+  border: solid 1px #C5C6C1;
+  border-radius: 5px;
 }
 
 .ticket-panel {
@@ -40,21 +70,23 @@
   margin: 1%;
 }
 
-img {
-  float: left;
-  max-width: 30%;
+.banner img {
+  max-width: 40%;
   max-height: auto;
   margin: 5px;
 }
 
-.movie1 a {
-  margin-left: 10px;
+.banner {
+  margin: 0 2vw;
+  width: 50vw;
 }
 
-.movie1 h4 {
-  margin-left: 10px;
+.hailCaesar {
+  margin: 3vh 1vw;
+  width: 50vw;
 }
 
-.movie1 p {
-  margin-left: 10px;
+.col-xs-6 .hailCaesar button {
+  width: 30vw;
+  min-width: 100px;
 }
