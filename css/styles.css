@@ -2,6 +2,59 @@
   background: #452610;
 }
 
-li {
+.navbar-collapse ul.navbar-nav a {
   color: #DA7E25;
+}
+
+.navbar-header .navbar-brand {
+  color: #DA7E25;
+}
+
+.navbar-collapse ul.navbar-nav a:hover {
+  color: #FFFFFF;
+}
+
+.navbar-header .navbar-brand:hover {
+  color: #DA7E25;
+}
+
+.navbar-toggle .sr-only .icon-bar {
+  background-color: #1F130A;
+  border: none;
+}
+
+.panel {
+  margin: 0 2vw;
+}
+
+.ticket-panel {
+  margin: 0 4vw;
+}
+
+.ticket-panel h4 {
+  text-align: center;
+}
+
+.btn-warning {
+  width: 46%;
+  margin: 1%;
+}
+
+img {
+  float: left;
+  max-width: 30%;
+  max-height: auto;
+  margin: 5px;
+}
+
+.movie1 a {
+  margin-left: 10px;
+}
+
+.movie1 h4 {
+  margin-left: 10px;
+}
+
+.movie1 p {
+  margin-left: 10px;
 }
